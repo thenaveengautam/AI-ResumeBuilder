@@ -52,6 +52,7 @@ PORT=5000
 MONGO_URI=your_mongodb_connection_string
 AI_API_KEY=your_ai_api_key
 JWT_SECRET=your_jwt_secret
+```
 
 ---
 
@@ -93,4 +94,5 @@ This project is licensed under the MIT License.
 ## ⭐ Support
 
 If you like this project, don’t forget to star ⭐ the repo!
+
 Just tell me 😄
