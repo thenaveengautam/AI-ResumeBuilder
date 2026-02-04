@@ -49,9 +49,12 @@ Create a `.env` file in the **server** folder and add:
 
 ```env
 PORT=5000
-MONGO_URI=your_mongodb_connection_string
-AI_API_KEY=your_ai_api_key
 JWT_SECRET=your_jwt_secret
+MONGO_URI=your_mongodb_connection_string
+IMAGEKIT_PRIVATE_KEY=your_imagekit_private_key
+OPENAI_API_KEY=your_openai_api_key
+OPENAI_BASE_URL=your_openai_base_url
+OPENAI_MODEL=gemini-2.5-flash
 ```
 
 ---
@@ -67,13 +70,13 @@ JWT_SECRET=your_jwt_secret
    ```bash
     cd server
     npm install
-    npm run dev
+    npm start server
     ```
 3. Install client dependencies:
    ```bash
     cd client
     npm install
-    npm start
+    npm run dev
     ```
 4. Open your browser and navigate to `http://localhost:3000`
 
