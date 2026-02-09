@@ -39,3 +39,6 @@ services:
 networks:
   fullstack-net:
     driver: bridge
+
+volumes:
+  mongo-data:
