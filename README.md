@@ -54,9 +54,10 @@ Before running the project, make sure you have:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/ai-resumebuilder.git
-cd ai-resumebuilder
+git clone https://github.com/your-username/AI-ResumeBuilder.git
+cd AI-ResumeBuilder
 ```
+
 ### 2. Backend Setup
 
 Navigate to the backend directory:
@@ -240,5 +241,5 @@ If you face any issues or have suggestions:
 - Share feedback to improve the project
 
 ---
-  
+
 Built with ❤️ using MERN stack and AI technologies.
