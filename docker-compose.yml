@@ -16,7 +16,7 @@ services:
     restart: unless-stopped
   server:
     build: ./server
-    image: ai-resume-server
+    image: express-server
     container_name: express-server
     ports:
       - "3000:3000"
@@ -28,7 +28,7 @@ services:
 
   client:
     build: ./client
-    image: ai-resume-client
+    image: react-client
     container_name: react-client
     ports:
       - "5173:3000"
