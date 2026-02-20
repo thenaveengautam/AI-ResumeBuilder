@@ -6,9 +6,6 @@ services:
     container_name: mongodb
     ports:
       - "27017:27017"
-    environment:
-      - MONGODB_URI=${MONGODB_URI}
-      - JWT_SECRET=${JWT_SECRET}
     volumes:
       - mongo-data:/data/db
     networks:
